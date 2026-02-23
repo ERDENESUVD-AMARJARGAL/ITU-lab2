@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(241, 138, 65);
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(182, 107, 20);
+    align-items: center;
+    height: 50px;
+    padding-right: 20px;
+}
+
+nav a {
+    padding: 15px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    min-height: 70vh;
+    padding: 40px 20px;
+    color: white;
+}
+
+main img {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+footer {
+    color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
